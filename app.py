@@ -9,5 +9,5 @@ input = st.text_input('Enter your message : ')
 input = vect.transform([input])
 new_y_pred = new_model.predict(input.toarray())
 
-if st.button('Predict'):
-  st.title([new_y_pred[0]]) 
+if st.button('Predict'): 
+  st.title([new_y_pred[0]])  
